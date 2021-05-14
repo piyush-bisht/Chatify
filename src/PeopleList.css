@@ -1,0 +1,28 @@
+.Person{
+    color:black !important;
+    text-decoration: none;
+    border-radius: 5%;
+}
+.Person:hover{
+    
+    box-shadow: 5px 10px 8px #888888;
+}
+.display-picture{
+    border-radius: 50%;
+    width: 90%;
+    height: 100%;
+}
+.person-list{
+    max-height: 100vh;
+    overflow-y: scroll;
+}
+.unread-msgs{
+    float: right;
+}
+.recent{
+    font-size: 12px;
+}
+
+.profile-modal{
+    margin:5%
+}

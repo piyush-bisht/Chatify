@@ -1,0 +1,60 @@
+body{
+    overflow-x: hidden;
+}
+.header{
+    margin:1% 0;
+}
+.header-layer{
+    box-shadow: 1px 1px 1px 1px rgb(223, 221, 221);
+    width: 70vw;
+}
+.header-text{
+    padding-left: 0;
+}
+.message-list{
+
+    border: black 1px solid;
+    height: 80vh;
+    width: 70vw;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    font-size: 15px;
+} 
+.message-card{
+    border: none;
+    margin: 1% 0;
+}
+.message-sent,.message-received{
+    border-radius: 5% ;
+    width: fit-content;
+    
+}
+.message-sent{
+    background-color:#34B7F1;
+}
+
+.message-received{
+   
+    background-color: #DCF8C6;
+}
+
+#loading{
+    opacity: 0.5;
+}
+#loaded{
+    opacity: 1;
+}
+.message-input{
+    width: 70vw;
+}
+.message-input-text:focus{
+    outline: none;
+}
+.title{
+    display: inline;
+}
+
+#filebrowsericon:hover{
+
+    opacity: 0.5 !important;
+}

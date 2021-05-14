@@ -1,0 +1,31 @@
+.home-view{
+    overflow-x: hidden;
+}
+
+
+.form-control:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+.list-column{
+    display: inline;
+}
+.search-box{
+    
+    margin:2% 2%;
+    
+}
+
+#chatsearch{
+    border: none;
+    outline: none;
+}
+input:focus,#chatsearch:focus{
+    outline: none !important;
+}
+#search{
+    background:none;
+    border:none;
+}
+
